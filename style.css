@@ -1,0 +1,283 @@
+/* ==================================================
+Common CSS
+================================================== */
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #EDDEFF;
+}
+
+p {
+    color: #B6B4B9;
+    font-size: 1rem;
+}
+
+.container {
+    width: 68rem;
+    margin: 0 auto;
+}
+
+.common_h2>h2 {
+    color: #F411CF;
+    text-align: center;
+    letter-spacing: .3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.common_h1>h1 {
+    color: black;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: .7rem 0 2.5rem 0;
+}
+
+.common_btn {
+    color: white;
+    background-color: #872BFF;
+    font-weight: 600;
+    border: none;
+    border-radius: 2rem;
+    padding: .9rem 1.6rem;
+}
+
+/* ==================================================
+Header Section
+================================================== */
+.header_section {
+    margin: 5rem 0;
+}
+
+.inner_header {
+    background-image: url(images/hero-bg.png);
+    background-size: contain;
+    height: 100vh;
+    border: 1px solid #E6D2FD;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------ Content Area ------ */
+.content_area>h1 {
+    font-size: 3.3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.content_area>h1>span {
+    color: #F411CF;
+}
+
+.content_area>p {
+    color: #aaa9ac;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+
+.content_area>button:last-child {
+    color: black;
+    background: none;
+    border: 1px solid #872BFF;
+    margin-left: .5rem;
+}
+
+/* ------ Image Area ------ */
+.image_area>img {
+    height: 29rem;
+}
+
+/* ==================================================
+Service Section
+================================================== */
+.service_section {
+    margin-bottom: 5rem;
+}
+
+/* ------ Wrap Services Area ------ */
+.wrap_services {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.services {
+    background: #FDFFFF;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 4rem 3.1rem;
+}
+
+.services>img {
+    margin-bottom: 2.5rem;
+}
+
+.services>h2 {
+    margin-bottom: 1.3rem;
+}
+
+.services>p {
+    line-height: 1.5rem;
+}
+
+/* ==================================================
+Spots Section
+================================================== */
+.spots {
+    margin-bottom: 5rem;
+}
+
+.inner_spots {
+    background: #FFFFFF;
+    border-radius: 1rem;
+    padding: 3% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5%;
+}
+
+/* ------ Great Wall Image Area ------ */
+.spots_image_area {
+    padding-left: 4%;
+    width: 45%;
+}
+
+.spots_image_area>img {
+    object-fit: contain;
+    /* cover, contain */
+    width: 100%;
+    height: auto;
+
+}
+
+/* ------ Great Wall Content Area ------ */
+.spots_content_area {
+    padding-right: 4%;
+    width: 60%;
+}
+
+.spots_content_area>h1 {
+    color: #3E3E3E;
+    font-size: 2rem;
+    margin-bottom: .7rem;
+}
+
+.spots_content_area>img {
+    margin-bottom: .8rem;
+}
+
+.spots_content_area>p {
+    margin-bottom: 1.8rem;
+}
+
+/* ==================================================
+Countries Section
+================================================== */
+.countrie_section {
+    margin-bottom: 5rem;
+}
+
+.countrie1,
+.countrie2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.countries{
+    color: #3E3E3E;
+    background: #FDFFFF;
+    font-size: 1.5rem;
+    font-weight: 650;
+    border-radius: .6rem;
+    padding: 1.6rem 2rem;
+}
+
+.countrie2 {
+    margin-top: 1.4rem;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* ==================================================
+Reviews Section
+================================================== */
+.reviews_section{
+    margin-bottom: 5rem;
+}
+
+.review_content{
+    background: #FDFFFF;
+    border-radius: .7rem;
+    padding: 1rem;
+}
+
+.review_content:first-child{
+    margin-bottom: 3rem;
+}
+
+.review_content>p{
+    text-align: center;
+}
+
+.review_person{
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "space reviewer star";
+}
+
+.about_reviewer{
+    text-align: center;
+    grid-area: reviewer;
+
+}
+
+.about_reviewer>p{
+    font-size: .9rem;
+}
+
+.about_reviewer>h3{
+    color: #3E3E3E;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.stars{
+    grid-area: star;
+    text-align: right;
+}
+
+/* ==================================================
+Footer Section
+================================================== */
+.footer_section{
+    background: #FDFFFF;
+}
+
+.inner_footer{
+    padding: .8rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_area>i{
+    margin-right: 1.5rem;
+}
+
+.social_area>i:last-child{
+    margin: 0;
+}
